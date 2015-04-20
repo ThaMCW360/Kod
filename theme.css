@@ -1,0 +1,492 @@
+@font-face {
+    font-family: 'Titillium-Light';
+    src: url('fonts/Titillium-Light.otf');
+
+
+}
+
+@font-face {
+    font-family: 'Ubuntu-B';
+    src: url('fonts/Ubuntu-B.ttf');
+
+
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('fonts/Montserrat-Light.otf');
+
+
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.otf');
+
+
+}
+
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/Corbel.ttf');
+
+
+}
+
+.popular td {
+padding-right: 90px;
+}
+.popular {
+color: #181d21;
+
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+main{
+font-family: Montserrat-Regular;
+}
+
+main td{
+text-align: center;
+}
+
+main-top{
+display: block;
+background-image: url("img/art1.jpg");
+background-repeat: no-repeat;
+background-position: center; 
+background-color: black;
+height: 282px;
+padding-top: 100px;
+}
+
+.login-panel{
+display: block;
+background-image: url("img/login.jpg");
+background-repeat: no-repeat;
+background-position: center; 
+background-color: black;
+height: 750px;
+padding-top: 100px;
+color: #cbd1d6;
+}
+
+.register{
+
+  font-size: 12px;
+}
+
+
+#hrreg{
+width: 260px;
+}
+
+topper{
+display: block;
+height: 850px;
+}
+
+
+.popular h4{
+padding-left:19%;
+padding-bottom: 30px;
+}
+.gry h4{
+padding-left:19%;
+padding-bottom: 30px;
+}
+
+.gry{
+background-color: #d2d8d8;
+color: #181d21;
+padding-top: 40px;
+padding-bottom: 90px;
+}
+
+.naglowek read {
+float:right;
+color: red;
+}
+
+gra{
+color: red;
+}
+
+main-top h2, main-top h3{
+color:white;
+}
+
+
+main-top a{
+width:40px;
+}
+
+.naglowek{
+display: block;
+claer:both;
+background-color: black;
+height: 200px;
+width: 60%;
+padding-top: 50px;
+padding-left: 25%;
+padding-right: 25%;
+text-overflow: clip;
+}
+
+
+
+.trailers h4{
+padding-left:19%;
+padding-bottom: 30px;
+}
+
+.trailers {
+background-color: #23292f;
+color: #738291;
+padding-top: 40px;
+padding-bottom: 90px;
+}
+
+
+
+
+a {
+
+  text-decoration: none;
+}
+
+footer a {
+
+font-family: Titillium-Light;
+}
+
+
+
+
+
+/* visited link */
+.remind a:visited {
+    
+color: #a62a1d;
+text-decoration: underline;
+}
+
+/* mouse over link */
+.remind a:hover {
+    
+
+color: #586574;
+text-decoration: underline;
+}
+
+/* selected link */
+.remind a:active {
+    
+color: #a62a1d;
+text-decoration: underline;
+}
+
+
+header a {
+margin-right: 35px;
+}
+
+
+logpan a, footer a, menu a:link {
+  
+color: #586574;
+}
+
+/* visited link */
+logpan a, footer a, menu a:visited {
+    
+color: #586574;
+}
+
+/* mouse over link */
+logpan a:hover, footer a:hover, menu a:hover {
+    
+color: #a62a1d;
+}
+
+/* selected link */
+logpan a, footer a, menu a:active {
+    
+color: #586574;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Corbel;
+  color: #ffffff;
+  font-size: 14px;
+ border-style: none;
+  background: #a62a1d;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #586574;
+  text-decoration: none;
+}
+
+.btnlog {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Corbel;
+  color: #ffffff;
+  font-size: 14px;
+ border-style: none;
+  background: #a62a1d;
+margin-top:20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.btnlog:hover {
+  background: #586574;
+  text-decoration: none;
+}
+
+
+
+.searchbar {
+
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Titillium-Light;
+  color: #586574;
+width: 50%;
+  font-size: 12px;
+  background: #0c0e11;
+
+ border-style: none;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.logbar_d {
+
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Titillium-Light;
+  color: #586574;
+width: 200px;
+  font-size: 12px;
+  background: #cbd1d6;
+
+ border-style: none;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+.logbar_k {
+
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Titillium-Light;
+  color: #586574;
+width: 150px;
+  font-size: 12px;
+  background: #cbd1d6;
+
+ border-style: none;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+
+.remember{
+display: block;
+float:left;
+  font-size: 12px;
+}
+
+.remind{
+display: block;
+padding-top: 4px;
+float:right;
+  font-size: 12px;
+
+
+}
+
+
+
+.newslet {
+
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Titillium-Light;
+  color: #0c0e11;
+
+ border-style: none;
+width: 50%;
+  font-size: 12px;
+  background: #738291;
+
+
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+
+#newsbar{
+align-text: right;
+}
+
+
+
+header{
+font-family: Montserrat-Light;
+background-color: #1d2329;
+display: inline-block;
+width:100%;
+height: 70px;
+
+}
+
+logo {
+display: block;
+float: left;
+width:29%;
+text-align: center;
+}
+
+
+searchpan{
+display: inline-block;
+width: 100%;
+}
+
+#z1{
+display: block;
+float:left;
+width:20%
+}
+#z2{
+display: block;
+float:left;
+width:20%
+}
+#z3{
+display: block;
+float:left;
+width:20%
+}
+#z4{
+display: block;
+float:left;
+width:20%
+}
+
+#l1{
+display: inline-block;
+float:left;
+width:250px;
+
+padding-left:20%;
+}
+#l2{
+display: inline-block;
+float:right;
+width:250px;
+
+padding-right:20%;
+align:left;
+}
+
+l2head{
+color:#a62a1d;
+
+}
+
+
+#hrf2{
+width:60px;
+border-color: #738291;
+margin-top: -1px;
+}
+
+#hrf2h{
+width:60px;
+border-color: #a62a1d;
+margin-top: -1px;
+}
+
+#hrf1{
+border-color: #2d343b;
+width: 90%;
+}
+
+
+footer{
+width:100%;
+background-color: #181d21;
+color: #586574;
+text-align: center;
+display: inline-block;
+clear:both;
+}
+
+#f2{
+width: 100%;
+align: center;
+color: #738291;
+font-family: Montserrat-Regular;
+padding-top: 90px;
+margin-bottom: -4px;}
+
+
+#f1{
+
+margin: 0px;
+font-family: Corbel;
+}
+
+
+search {
+display: block;
+float: right;
+width: 70%;
+text-align: left;
+vertical-align: middle;
+padding-top: 17px;
+}
+
+menu{
+display: inline-block;
+padding-left:10%;
+vertical-align: top;
+float: left;
+}
+
+logpan{
+display: inline-block;
+padding-right:10%;
+padding-top: 16px;
+
+float: right;
+vertical-align: text-bottom;
+text-align: right;
+}
+
+up{
+display: block;
+margin-top: -124px;
+padding-bottom: 55px;
+text-align: center;
+}
+
